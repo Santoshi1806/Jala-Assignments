@@ -1,0 +1,56 @@
+Assignment-1: Python Basics & Variables 
+1. Print Your Name 
+Write a Python program to print your name on the console. 
+
+print("Santoshi Madrage")
+
+2. Comments in Python 
+Write a program that demonstrates: 
+• A single-line comment 
+• A multi-line comment (using triple quotes) 
+Also, print a message explaining what comments are used for. 
+
+# This is a single-line comment
+
+"""
+This is a multi-line comment.
+It can span across multiple lines.
+"""
+
+print("Comments are used to explain code and make it easier to understand.")
+
+3. Working with Basic Data Types 
+Create variables of the following types and print their values along with their data types: 
+• Integer 
+• Float 
+• Boolean 
+• String (Note: Python does not have a separate char type — use a single-character string) 
+
+# Integer
+num_int = 10
+print(num_int, type(num_int))
+
+# Float
+num_float = 3.14
+print(num_float, type(num_float))
+
+# Boolean
+is_valid = True
+print(is_valid, type(is_valid))
+
+# String (single character string)
+char_str = "A"
+print(char_str, type(char_str))
+
+4. Local vs Global Variables 
+Write a program to demonstrate variable scope: 
+• Create a global variable 
+• Create a function where: 
+o You define a local variable with the same name 
+o Print both the local and global variables 
+     Modify the global variable inside the function using the global keyword and observe the 
+change. 
+ 
+ 
+ 
+ 
